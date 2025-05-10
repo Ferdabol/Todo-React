@@ -1,0 +1,97 @@
+body{
+  background-color: rgb(37, 17, 17);
+}
+
+.todo-list{
+  font-family: arial, sans-serif;
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  padding: 20px 20px;
+  border: 5px solid rgb(255, 255, 255);
+  background-color: blanchedalmond;
+  box-shadow: 2px 2px 2px rgb(201, 201, 201);
+  border-radius: 10px;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button{
+  background-color: green;
+}
+
+.add-button:hover{
+  background-color: rgb(1, 65, 1);
+}
+
+.delete-button{
+  background-color: red;
+}
+
+.delete-button:hover{
+  background-color: rgb(65, 1, 1);
+}
+
+.completed-task {
+  background-color: #b3b478;
+}
+
+input{
+  font-size: 1.6rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.text{
+  font-size: 2rem;
+  padding: 10px 20px;
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 3px solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
